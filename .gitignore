@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.pyo
+*.pyd
+*.log
+
+# Virtual Environment
+venv/
+.env
+.env.*
+
+# VSCode and IDEs
+.vscode/
+.idea/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.tar
+*.img
+*.container
+*.pid
+
+# Pytest cache
+.pytest_cache/
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# FastAPI static/runtime
+*.db
+*.sqlite3
+
+# Data
+data/*.json
+data/*.csv
+data/*.xlsx
+data/*.pdf
+data/*.docx
+
+# Model files
+*.pkl
+*.pt
+*.onnx
+model/
+
+# ChromaDB or local vectorstores
+chroma_db/
+vector_store/
+*.faiss
+
+# Logs or output files
+logs/
+output/
+results/
+
+# GitHub Actions
+.github/*.log
