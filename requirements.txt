@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+transformers
+sentence-transformers
+chromadb
+pydantic
+pdfplumber
+prometheus-client
+onnxruntime
+python-multipart
+mlfow
