@@ -8,4 +8,4 @@ pdfplumber
 prometheus-client
 onnxruntime
 python-multipart
-mlfow
+mlflow
