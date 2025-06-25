@@ -23,4 +23,4 @@ def score_match(resume_text, jd_text):
         score = util.pytorch_cos_sim(emb_resume, emb_jd).item()
         mlflow.log_param("model", "all-MiniLM-L6-v2")
         mlflow.log_metric("match_score", score)
-        return (score*100,2)
+        return (score*100)

@@ -9,3 +9,5 @@ prometheus-client
 onnxruntime
 python-multipart
 mlflow
+torch
+huggingface_hub
